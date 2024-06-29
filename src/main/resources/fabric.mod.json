@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "MIT Licence",
 	"icon": "assets/template/icon.png",
 	"environment": "*",
 	"entrypoints": {
