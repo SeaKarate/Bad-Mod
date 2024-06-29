@@ -27,6 +27,39 @@ public class ModBlocks {
                             .strength(1.0F, 100.0F)
                             .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.RED)
+                            .instrument(NoteBlockInstrument.CREEPER)
+                            .requiresTool()
+                            .strength(1.0F, 100.0F)
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BRAINROT_GEN_ALPHA = registerBlock("gen_alpha_block",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.RED)
+                            .instrument(NoteBlockInstrument.CREEPER)
+                            .requiresTool()
+                            .strength(1.0F, 100.0F)
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BRAINROT_GEN_Z = registerBlock("gen_z_block",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.RED)
+                            .instrument(NoteBlockInstrument.CREEPER)
+                            .requiresTool()
+                            .strength(1.0F, 100.0F)
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+ public static final Block BEDROK = registerBlock("bedrock1",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.RED)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .requiresTool()
+                            .strength(1.0F, 100.0F)
+                            .sounds(BlockSoundGroup.BONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, name), block);

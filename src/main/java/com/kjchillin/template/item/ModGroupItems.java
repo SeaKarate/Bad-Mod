@@ -20,6 +20,10 @@ public class ModGroupItems {
                         entries.add(ModItems.RAW_RUBY);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.BRAINROT_GEN_Z);
+                        entries.add(ModBlocks.BRAINROT_GEN_ALPHA);
+                        entries.add(ModBlocks.BEDROK);
 
                     }).build());
 
