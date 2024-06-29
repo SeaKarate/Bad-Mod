@@ -1,0 +1,7 @@
+{
+  "varients": {
+    "": {
+      "model": "template:block/ruby_block"
+    }
+  }
+}

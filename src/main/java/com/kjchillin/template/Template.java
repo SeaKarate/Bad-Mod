@@ -1,5 +1,8 @@
 package com.kjchillin.template;
 
+import com.kjchillin.template.block.ModBlocks;
+import com.kjchillin.template.item.ModGroupItems;
+import com.kjchillin.template.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class Template implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModGroupItems.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

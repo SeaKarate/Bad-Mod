@@ -1,0 +1,7 @@
+{
+  "item.template.ruby": "Ruby",
+  "item.template.raw_ruby": "Raw Ruby",
+  "itemgroup.ruby": "Custom Items Group",
+
+  "block.template.ruby_block": "Block of Ruby"
+}
