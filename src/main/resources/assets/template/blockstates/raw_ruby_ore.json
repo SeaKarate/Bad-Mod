@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "template:block/raw_ruby_ore"
+    }
+  }
+}

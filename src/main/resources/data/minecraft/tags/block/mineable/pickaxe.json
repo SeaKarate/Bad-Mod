@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "template:ruby_block",
+    "template:raw_ruby_block",
+    "template:gen_alpha_block",
+    "template:gen_z_block",
+    "template:bedrock1",
+    "template:raw_ruby_ore"
+  ]
+}

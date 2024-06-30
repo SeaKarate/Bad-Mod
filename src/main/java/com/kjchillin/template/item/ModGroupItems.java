@@ -24,6 +24,8 @@ public class ModGroupItems {
                         entries.add(ModBlocks.BRAINROT_GEN_Z);
                         entries.add(ModBlocks.BRAINROT_GEN_ALPHA);
                         entries.add(ModBlocks.BEDROK);
+                        entries.add(ModBlocks.ANDREW_TATE);
+                        entries.add(ModBlocks.RAW_RUBY_ORE);
 
                     }).build());
 
