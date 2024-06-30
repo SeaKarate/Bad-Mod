@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/ruby_block"
+  "parent": "template:block/ruby_block",
+  "textures": {
+    "layer0": "template:block/ruby_block"
+  }
 }

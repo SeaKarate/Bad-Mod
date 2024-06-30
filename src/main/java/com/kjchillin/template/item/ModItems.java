@@ -1,6 +1,7 @@
 package com.kjchillin.template.item;
 
 import com.kjchillin.template.Template;
+import com.kjchillin.template.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -13,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new Item.Settings().maxDamage(300000)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

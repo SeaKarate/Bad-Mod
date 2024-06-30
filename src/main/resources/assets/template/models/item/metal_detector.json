@@ -1,0 +1,6 @@
+{
+  "parent": "template:item/metal_detector",
+  "textures": {
+    "layer0": "template:item/metal_detector"
+  }
+}

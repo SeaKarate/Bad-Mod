@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/raw_ruby_ore"
+  "parent": "template:block/raw_ruby_ore",
+  "textures": {
+    "layer0": "template:block/raw_ruby_ore"
+  }
 }

@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/gen_alpha_block"
+  "parent": "template:block/gen_alpha_block",
+  "textures": {
+    "layer0": "template:block/gen_alpha_block"
+  }
 }

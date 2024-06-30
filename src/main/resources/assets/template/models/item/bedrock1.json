@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/bedrock1"
+  "parent": "template:block/bedrock1",
+  "textures": {
+    "layer0": "template:block/bedrock1"
+  }
 }

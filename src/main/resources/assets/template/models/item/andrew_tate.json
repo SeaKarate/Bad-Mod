@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/andrew_tate"
+  "parent": "template:block/andrew_tate",
+  "textures": {
+    "layer0": "template:block/andrew_tate"
+  }
 }

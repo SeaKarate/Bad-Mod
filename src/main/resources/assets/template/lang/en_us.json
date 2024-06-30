@@ -9,5 +9,6 @@
   "block.template.gen_z_block": "BLOCK OF THE BRAINROT Z",
   "block.template.bedrock1": "BED AINT ROCK",
   "block.template.andrew_tate": "TATE",
-  "block.template.raw_ruby_ore": "Raw Ruby Ore"
+  "block.template.raw_ruby_ore": "Raw Ruby Ore",
+  "item.template.metal_detector": "Metal Detector"
 }

@@ -1,3 +1,6 @@
 {
-  "parent": "template:block/gen_z_block"
+  "parent": "template:block/gen_z_block",
+  "textures": {
+    "layer0": "template:block/gen_z_block"
+  }
 }

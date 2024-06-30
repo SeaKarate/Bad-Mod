@@ -37,7 +37,7 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_RUBY_ORE = registerBlock("raw_ruby_ore",
             new ExperienceDroppingBlock(
-                    UniformIntProvider.create(2,5),
+                    UniformIntProvider.create(200,500),
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.RED)
                             .instrument(NoteBlockInstrument.CREEPER)
