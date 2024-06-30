@@ -1,5 +1,5 @@
 {
-  "parent": "template:block/andrew_tate",
+  "parent": "item/generated",
   "textures": {
     "layer0": "template:block/andrew_tate"
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "template:block/ruby_block",
+  "parent": "item/generated",
   "textures": {
     "layer0": "template:block/ruby_block"
   }

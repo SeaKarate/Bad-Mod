@@ -1,5 +1,5 @@
 {
-  "parent": "template:item/metal_detector",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "template:item/metal_detector"
   }
