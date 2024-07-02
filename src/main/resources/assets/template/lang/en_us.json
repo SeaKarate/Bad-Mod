@@ -10,5 +10,11 @@
   "block.template.bedrock1": "BED AINT ROCK",
   "block.template.andrew_tate": "TATE",
   "block.template.raw_ruby_ore": "Raw Ruby Ore",
-  "item.template.metal_detector": "Metal Detector"
+  "item.template.metal_detector": "Metal Detector",
+  "block.template.sound_block": "Sound Block",
+  "item.template.tomato": "Tomato",
+  "item.template.coal_a": "Custom Coal (Definitely does not use the regular coal texture)",
+  "item.template.potato": "Potato",
+
+  "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }

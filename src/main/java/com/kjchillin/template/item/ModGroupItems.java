@@ -27,6 +27,12 @@ public class ModGroupItems {
                         entries.add(ModBlocks.BEDROK);
                         entries.add(ModBlocks.ANDREW_TATE);
                         entries.add(ModBlocks.RAW_RUBY_ORE);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.POTATO);
+
+                        entries.add(ModItems.COAL_A);
 
                     }).build());
 

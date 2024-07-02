@@ -2,6 +2,7 @@
 package com.kjchillin.template.block;
 
 import com.kjchillin.template.Template;
+import com.kjchillin.template.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -29,6 +30,14 @@ public class ModBlocks {
 
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.RED)
+                            .instrument(NoteBlockInstrument.CREEPER)
+                            .requiresTool()
+                            .strength(1.0F, 100.0F)
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.RED)
                             .instrument(NoteBlockInstrument.CREEPER)

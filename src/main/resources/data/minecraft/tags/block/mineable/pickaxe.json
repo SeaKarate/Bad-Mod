@@ -6,6 +6,7 @@
     "template:gen_alpha_block",
     "template:gen_z_block",
     "template:bedrock1",
-    "template:raw_ruby_ore"
+    "template:raw_ruby_ore",
+    "template:sound_block"
   ]
 }
