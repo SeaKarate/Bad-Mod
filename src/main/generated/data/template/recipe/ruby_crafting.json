@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "template:raw_ruby"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "R R",
+    "SRS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "template:raw_ruby"
+  }
+}

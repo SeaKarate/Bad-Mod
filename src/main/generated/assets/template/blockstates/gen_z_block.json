@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "template:block/gen_z_block"
+    }
+  }
+}

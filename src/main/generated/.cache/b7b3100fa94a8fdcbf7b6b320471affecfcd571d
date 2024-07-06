@@ -1,0 +1,9 @@
+// 1.21	2024-07-05T19:56:54.0054556	Mod Template Fabric Modid is template/Tags for minecraft:block
+e98624ab535e0fe70c7ca210b59bb0d51f021ba1 data\minecraft\tags\block\mineable\pickaxe.json
+371cccb51d2190522f28bcc5ade8641c08a72d35 data\minecraft\tags\block\needs_iron_tool.json
+929db8b19c370425b5bdded9c95a695bc58472d9 data\minecraft\tags\block\needs_diamond_tool.json
+fb155e20d8c0f60037b5a995528a038b2077ed10 data\template\tags\block\metal_detector_detectable_blocks.json
+b1812ab6048837bff06ae572c81d7d7729f04652 data\minecraft\tags\block\walls.json
+e315f0a9f59df4295475e96001d648b0c22a1487 data\minecraft\tags\block\fence_gates.json
+16a8c5b19ea664f6b54ce066ff47f947e34e67c4 data\minecraft\tags\block\fences.json
+2e1c6308157b9cd2191ad2cd2258e0ece06ee769 data\fabric\tags\block\needs_tool_level_4.json
