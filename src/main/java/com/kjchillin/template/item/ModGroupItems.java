@@ -28,9 +28,23 @@ public class ModGroupItems {
                         entries.add(ModBlocks.ANDREW_TATE);
                         entries.add(ModBlocks.RAW_RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.POTATO);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_HOE);
 
                         entries.add(ModItems.COAL_A);
 

@@ -20,5 +20,6 @@ public class Template implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFuelClass.registerModFuels();
+
 	}
 }

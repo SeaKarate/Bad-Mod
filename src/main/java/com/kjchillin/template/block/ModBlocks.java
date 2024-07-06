@@ -12,10 +12,13 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.scoreboard.AbstractTeam;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+import net.minecraft.world.BlockCollisionSpliterator;
 
+import static net.minecraft.block.Blocks.IRON_BLOCK;
 import static net.minecraft.block.Blocks.register;
 
 public class ModBlocks {
@@ -44,6 +47,32 @@ public class ModBlocks {
                             .requiresTool()
                             .strength(1.0F, 100.0F)
                             .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
+            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+public static final Block RUBY_SLAB = registerBlock("ruby_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+
+public static final Block RUBY_BUTTON = registerBlock("ruby_button",
+            new ButtonBlock(BlockSetType.IRON,10,FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY,FabricBlockSettings.copy(Blocks.IRON_BLOCK).noCollision()));
+
+public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+            new FenceBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+public static final Block RUBY_WALL = registerBlock("ruby_wall",
+            new WallBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+
+public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+
+
+
+
     public static final Block RAW_RUBY_ORE = registerBlock("raw_ruby_ore",
             new ExperienceDroppingBlock(
                     UniformIntProvider.create(200,500),

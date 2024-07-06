@@ -15,6 +15,20 @@
   "item.template.tomato": "Tomato",
   "item.template.coal_a": "Custom Coal (Definitely does not use the regular coal texture)",
   "item.template.potato": "Potato",
+  "block.template.ruby_stairs": "Ruby Stairs",
+  "block.template.ruby_door": "Ruby Door",
+  "block.template.ruby_slab": "Ruby Slab",
+  "block.template.ruby_button": "Ruby Button",
+  "block.template.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.template.ruby_fence_gate": "Ruby Fence Gate",
+  "block.template.ruby_fence": "Ruby Fence",
+  "block.template.ruby_wall": "Ruby Wall",
+  "block.template.ruby_trapdoor": "Ruby Trapdoor",
+  "item.template.ruby_sword": "Ruby Sword",
+  "item.template.ruby_shovel": "Ruby Shovel",
+  "item.template.ruby_pickaxe": "Ruby Pickaxe",
+  "item.template.ruby_axe": "Ruby Axe",
+  "item.template.ruby_hoe": "Ruby Hoe",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }
