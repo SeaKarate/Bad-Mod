@@ -1,6 +1,8 @@
 package com.kjchillin.template.item;
 
+import com.kjchillin.template.util.ModTagsClass;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.component.type.ToolComponent;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -9,7 +11,7 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    RUBY(1200000,7.5f,500,26, () -> Ingredient.ofItems(ModItems.RUBY));
+    RUBY(10,1200000,23456f,500,26, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final int itemDurability;
     private final float miningSpeed;
@@ -17,7 +19,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantibility;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int itemDurability, float miningSpeed, float attackDamage, int enchantibility, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantibility, Supplier<Ingredient> repairIngredient) {
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
@@ -42,7 +44,7 @@ public enum ModToolMaterial implements ToolMaterial {
 
     @Override
     public TagKey<Block> getInverseTag() {
-        return null;
+        return ModTagsClass.Blocks.PICKAXE_NOT_BREAKABLE_BLOCK;
     }
 
     @Override

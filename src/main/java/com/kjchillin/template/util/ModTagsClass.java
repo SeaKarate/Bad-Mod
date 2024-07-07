@@ -12,6 +12,8 @@ public class ModTagsClass {
     public static class Blocks {
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS =
                 createTag("metal_detector_detectable_blocks");
+public static final TagKey<Block> PICKAXE_NOT_BREAKABLE_BLOCK =
+                createTag("pickaxe_not_breakable_block");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Template.MOD_ID, name));

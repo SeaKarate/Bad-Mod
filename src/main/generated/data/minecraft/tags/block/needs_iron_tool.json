@@ -3,6 +3,15 @@
     "template:ruby_block",
     "template:raw_ruby_ore",
     "template:andrew_tate",
-    "template:bedrock1"
+    "template:bedrock1",
+    "template:ruby_door",
+    "template:ruby_button",
+    "template:ruby_fence",
+    "template:ruby_slab",
+    "template:ruby_fence_gate",
+    "template:ruby_fence",
+    "template:ruby_pressure_plate",
+    "template:ruby_wall",
+    "template:ruby_trapdoor"
   ]
 }

@@ -49,26 +49,26 @@ public class ModBlocks {
                             .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
-            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.CHERRY_STAIRS)));
 public static final Block RUBY_SLAB = registerBlock("ruby_slab",
-            new SlabBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new SlabBlock(FabricBlockSettings.copy(Blocks.BAMBOO_SLAB)));
 
 public static final Block RUBY_BUTTON = registerBlock("ruby_button",
             new ButtonBlock(BlockSetType.IRON,10,FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
 public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
-            new PressurePlateBlock(BlockSetType.CHERRY,FabricBlockSettings.copy(Blocks.IRON_BLOCK).noCollision()));
+            new PressurePlateBlock(BlockSetType.CHERRY,FabricBlockSettings.copy(Blocks.CHERRY_BUTTON).noCollision()));
 
 public static final Block RUBY_FENCE = registerBlock("ruby_fence",
-            new FenceBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new FenceBlock(FabricBlockSettings.copy(Blocks.CHERRY_FENCE)));
 public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
-            new FenceGateBlock(WoodType.CHERRY, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new FenceGateBlock(WoodType.CHERRY, FabricBlockSettings.copy(Blocks.CHERRY_FENCE_GATE)));
 public static final Block RUBY_WALL = registerBlock("ruby_wall",
-            new WallBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new WallBlock(FabricBlockSettings.copy(Blocks.BRICK_WALL)));
 
 public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.CHERRY_DOOR)));
 public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+            new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copy(Blocks.CHERRY_TRAPDOOR)));
 
 
 
