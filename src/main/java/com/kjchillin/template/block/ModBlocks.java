@@ -105,8 +105,10 @@ public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
                             .mapColor(MapColor.RED)
                             .instrument(NoteBlockInstrument.BASS)
                             .requiresTool()
-                            .strength(-1F, -1F)
-                            .sounds(BlockSoundGroup.BONE)));
+                            .strength(-1F, 3600000.0F)
+                            .sounds(BlockSoundGroup.BONE)
+                            .dropsNothing()
+                            .allowsSpawning(Blocks::never)));
  public static final Block ANDREW_TATE = registerBlock("andrew_tate",
             new Block(
                     AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().solidBlock(Blocks::never)
