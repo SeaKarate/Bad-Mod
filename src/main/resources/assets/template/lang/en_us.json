@@ -29,6 +29,10 @@
   "item.template.ruby_pickaxe": "Ruby Pickaxe",
   "item.template.ruby_axe": "Ruby Axe",
   "item.template.ruby_hoe": "Ruby Hoe",
+  "item.template.ruby_helmet": "Ruby Helmet",
+  "item.template.ruby_chestplate": "Ruby Chestplate",
+  "item.template.ruby_leggings": "Ruby Leggings",
+  "item.template.ruby_boots": "Ruby Boots",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }

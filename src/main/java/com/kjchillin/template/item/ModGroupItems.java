@@ -48,6 +48,11 @@ public class ModGroupItems {
 
                         entries.add(ModItems.COAL_A);
 
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+
                     }).build());
 
 

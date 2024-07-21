@@ -1,4 +1,4 @@
-// 1.21	2024-07-06T13:09:44.3076543	Mod Template Fabric Modid is template/Block Loot Tables
+// 1.21	2024-07-21T18:24:49.3908129	Mod Template Fabric Modid is template/Block Loot Tables
 8a1d9bc6d79b0e1e96a8f3047d6b66307f7e7607 data\template\loot_table\blocks\ruby_fence_gate.json
 83671bacd0a7b1fac05c52e747db37caa5ca22cf data\template\loot_table\blocks\ruby_slab.json
 b6a5529c8b285c5e015fd113683170ee0b275d60 data\template\loot_table\blocks\ruby_stairs.json
@@ -8,7 +8,6 @@ cf091ebdbe105fa0c3099e8f65978d1968ba43ab data\template\loot_table\blocks\ruby_tr
 a6aa8d345153c153302bb85de0a302617aa260d8 data\template\loot_table\blocks\gen_z_block.json
 0946cbb5c11c8d10e5a826326c1be9374ca7abe5 data\template\loot_table\blocks\raw_ruby_block.json
 6c9f58091478c3fb713666fecc2a942fb4a3b9e3 data\template\loot_table\blocks\andrew_tate.json
-cdbb3e3facca500fe2ea0a5fc9c5eb6d1886964b data\template\loot_table\blocks\bedrock1.json
 a7ed4784fb93d5228410fdc02aed63e7c3423fee data\template\loot_table\blocks\ruby_button.json
 4fd25319f5495c3b708215769fddb5e904deb2a8 data\template\loot_table\blocks\raw_ruby_ore.json
 154edec570eb87e1bd449777cdb8c050c5da94d6 data\template\loot_table\blocks\sound_block.json
