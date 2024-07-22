@@ -24,7 +24,9 @@ public class ModArmorMaterials{
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
         map.put(ArmorItem.Type.BODY, 11);
-    }), 19, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> Ingredient.ofItems(ModItems.RUBY));
+    }), 19, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> Ingredient.ofItems(ModItems.RUBY),
+            List.of(new ArmorMaterial.Layer(Identifier.of("ruby"), "", false), new ArmorMaterial.Layer(Identifier.of("ruby"), "_overlay", false))
+    );
 
     private static RegistryEntry<ArmorMaterial> register(
             String id,
