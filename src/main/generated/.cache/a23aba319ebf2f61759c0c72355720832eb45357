@@ -1,7 +1,9 @@
-// 1.21	2024-07-21T18:24:49.3908129	Mod Template Fabric Modid is template/Block Loot Tables
+// 1.21	2024-07-27T13:36:41.0813128	Mod Template Fabric Modid is template/Block Loot Tables
 8a1d9bc6d79b0e1e96a8f3047d6b66307f7e7607 data\template\loot_table\blocks\ruby_fence_gate.json
 83671bacd0a7b1fac05c52e747db37caa5ca22cf data\template\loot_table\blocks\ruby_slab.json
+a69b4a67acab92b21d0ca9ad7320ff6ef1c98440 data\template\loot_table\blocks\tomato_crop.json
 b6a5529c8b285c5e015fd113683170ee0b275d60 data\template\loot_table\blocks\ruby_stairs.json
+8a96ff31b51efed803325e330b51d16769f8d0e1 data\template\loot_table\blocks\metal_detector_crop.json
 88e305cd02385a2282bce250db4ca97f6daae921 data\template\loot_table\blocks\ruby_door.json
 cf091ebdbe105fa0c3099e8f65978d1968ba43ab data\template\loot_table\blocks\ruby_trapdoor.json
 4fdb8bd13b303427d962958d0b3e50b888d5f687 data\template\loot_table\blocks\ruby_block.json

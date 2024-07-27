@@ -1,6 +1,7 @@
 package com.kjchillin.template.item;
 
 import com.kjchillin.template.Template;
+import com.kjchillin.template.block.ModBlocks;
 import com.kjchillin.template.item.custom.MetalDetectorItem;
 import com.kjchillin.template.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -39,6 +40,11 @@ public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
             new ArmorItem(ModArmorMaterials.RUBYARMOR, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(25))));
 public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBYARMOR, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(25))));
+
+public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+        new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings()));
+public static final Item METAL_DETECTOR_SEEDS = registerItem("metal_detector_seeds",
+        new AliasedBlockItem(ModBlocks.METAL_DETECTOR_CROP, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

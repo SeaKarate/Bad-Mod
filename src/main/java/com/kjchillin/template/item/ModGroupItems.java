@@ -48,6 +48,9 @@ public class ModGroupItems {
 
                         entries.add(ModItems.COAL_A);
 
+                        entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.METAL_DETECTOR_SEEDS);
+
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);

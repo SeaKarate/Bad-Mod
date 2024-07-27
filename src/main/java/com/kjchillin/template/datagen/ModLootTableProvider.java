@@ -1,20 +1,27 @@
 package com.kjchillin.template.datagen;
 
 import com.kjchillin.template.block.ModBlocks;
+import com.kjchillin.template.block.custom.GrowableMetalDetector;
+import com.kjchillin.template.block.custom.TomatoCropBlock;
 import com.kjchillin.template.item.ModItems;
+import com.kjchillin.template.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.CropBlock;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -48,6 +55,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.RAW_RUBY_ORE, copperOreLikeDrops(ModBlocks.RAW_RUBY_ORE, ModItems.RAW_RUBY));
 
+        LootCondition.Builder builder_tomato =
+                BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create().exactMatch(TomatoCropBlock.AGE, 5));
+        addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder_tomato));
+        LootCondition.Builder builder_metal_detector =
+                BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create().exactMatch(GrowableMetalDetector.AGE, 5));
+        addDrop(ModBlocks.METAL_DETECTOR_CROP, cropDrops(ModBlocks.METAL_DETECTOR_CROP, ModItems.METAL_DETECTOR, ModItems.METAL_DETECTOR, builder_metal_detector));
     }
 
     public LootTable.Builder copperOreLikeDrops(Block drop, Item item) {

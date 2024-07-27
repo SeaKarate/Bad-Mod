@@ -1,6 +1,7 @@
 package com.kjchillin.template.datagen;
 
 import com.kjchillin.template.block.ModBlocks;
+import com.kjchillin.template.block.custom.TomatoCropBlock;
 import com.kjchillin.template.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -25,6 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRAINROT_GEN_Z);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRAINROT_GEN_ALPHA);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.METAL_DETECTOR_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
         rubyPool.button(ModBlocks.RUBY_BUTTON);
@@ -42,6 +46,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COAL_A, Models.GENERATED);
         itemModelGenerator.register(ModItems.POTATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_AXE, Models.GENERATED);

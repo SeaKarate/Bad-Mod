@@ -33,6 +33,8 @@
   "item.template.ruby_chestplate": "Ruby Chestplate",
   "item.template.ruby_leggings": "Ruby Leggings",
   "item.template.ruby_boots": "Ruby Boots",
+  "item.template.tomato_seeds": "Tomato Seeds",
+  "item.template.metal_detector_seeds": "Metal Detector Seeds",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }
