@@ -35,6 +35,8 @@
   "item.template.ruby_boots": "Ruby Boots",
   "item.template.tomato_seeds": "Tomato Seeds",
   "item.template.metal_detector_seeds": "Metal Detector Seeds",
+  "item.template.corn_seeds": "Corn Seeds",
+  "item.template.corn": "Corn",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }

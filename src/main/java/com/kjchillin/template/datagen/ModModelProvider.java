@@ -1,6 +1,8 @@
 package com.kjchillin.template.datagen;
 
 import com.kjchillin.template.block.ModBlocks;
+import com.kjchillin.template.block.custom.CornCropBlock;
+import com.kjchillin.template.block.custom.GrowableMetalDetector;
 import com.kjchillin.template.block.custom.TomatoCropBlock;
 import com.kjchillin.template.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -27,7 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRAINROT_GEN_ALPHA);
 
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
-        blockStateModelGenerator.registerCrop(ModBlocks.METAL_DETECTOR_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.METAL_DETECTOR_CROP, GrowableMetalDetector.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
 
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
@@ -46,13 +49,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COAL_A, Models.GENERATED);
         itemModelGenerator.register(ModItems.POTATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_HOE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_RUBY, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));

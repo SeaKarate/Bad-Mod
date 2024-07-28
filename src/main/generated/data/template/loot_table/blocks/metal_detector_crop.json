@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "template:metal_detector"
+              "name": "template:metal_detector_seeds"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "template:metal_detector"
+          "name": "template:metal_detector_seeds"
         }
       ],
       "rolls": 1.0

@@ -2,6 +2,8 @@
 package com.kjchillin.template.block;
 
 import com.kjchillin.template.Template;
+import com.kjchillin.template.block.custom.CornCropBlock;
+import com.kjchillin.template.block.custom.GrowableMetalDetector;
 import com.kjchillin.template.block.custom.SoundBlock;
 import com.kjchillin.template.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
@@ -74,7 +76,10 @@ public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
 public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "tomato_crop"),
         new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 public static final Block METAL_DETECTOR_CROP = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "metal_detector_crop"),
-        new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+        new GrowableMetalDetector(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "corn_crop"),
+        new CornCropBlock(FabricBlockSettings.copyOf(Blocks.SUGAR_CANE)));
+
 
 
 

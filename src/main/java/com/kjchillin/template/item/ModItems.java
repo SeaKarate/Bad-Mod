@@ -45,6 +45,10 @@ public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
         new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings()));
 public static final Item METAL_DETECTOR_SEEDS = registerItem("metal_detector_seeds",
         new AliasedBlockItem(ModBlocks.METAL_DETECTOR_CROP, new Item.Settings()));
+public static final Item CORN_SEEDS = registerItem("corn_seeds",
+        new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
+
+    public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

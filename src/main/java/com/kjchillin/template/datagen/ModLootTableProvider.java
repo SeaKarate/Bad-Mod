@@ -1,6 +1,7 @@
 package com.kjchillin.template.datagen;
 
 import com.kjchillin.template.block.ModBlocks;
+import com.kjchillin.template.block.custom.CornCropBlock;
 import com.kjchillin.template.block.custom.GrowableMetalDetector;
 import com.kjchillin.template.block.custom.TomatoCropBlock;
 import com.kjchillin.template.item.ModItems;
@@ -14,6 +15,7 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.AnyOfLootCondition;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.entry.ItemEntry;
@@ -60,7 +62,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder_tomato));
         LootCondition.Builder builder_metal_detector =
                 BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create().exactMatch(GrowableMetalDetector.AGE, 5));
-        addDrop(ModBlocks.METAL_DETECTOR_CROP, cropDrops(ModBlocks.METAL_DETECTOR_CROP, ModItems.METAL_DETECTOR, ModItems.METAL_DETECTOR, builder_metal_detector));
+        addDrop(ModBlocks.METAL_DETECTOR_CROP, cropDrops(ModBlocks.METAL_DETECTOR_CROP, ModItems.METAL_DETECTOR, ModItems.METAL_DETECTOR_SEEDS, builder_metal_detector));
+
+        AnyOfLootCondition.Builder builder_corn =
+                BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                            .exactMatch(CornCropBlock.AGE, 7))
+                        .or(BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                                .exactMatch(CornCropBlock.AGE, 8)));
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder_corn));
     }
 
     public LootTable.Builder copperOreLikeDrops(Block drop, Item item) {

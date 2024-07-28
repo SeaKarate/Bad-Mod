@@ -1,9 +1,9 @@
-// 1.21	2024-07-27T13:36:41.0813128	Mod Template Fabric Modid is template/Block Loot Tables
+// 1.21	2024-07-28T18:26:29.3782405	Mod Template Fabric Modid is template/Block Loot Tables
 8a1d9bc6d79b0e1e96a8f3047d6b66307f7e7607 data\template\loot_table\blocks\ruby_fence_gate.json
 83671bacd0a7b1fac05c52e747db37caa5ca22cf data\template\loot_table\blocks\ruby_slab.json
 a69b4a67acab92b21d0ca9ad7320ff6ef1c98440 data\template\loot_table\blocks\tomato_crop.json
 b6a5529c8b285c5e015fd113683170ee0b275d60 data\template\loot_table\blocks\ruby_stairs.json
-8a96ff31b51efed803325e330b51d16769f8d0e1 data\template\loot_table\blocks\metal_detector_crop.json
+22bc08058372d53b2757e9aa18ca30e7c4acff4d data\template\loot_table\blocks\metal_detector_crop.json
 88e305cd02385a2282bce250db4ca97f6daae921 data\template\loot_table\blocks\ruby_door.json
 cf091ebdbe105fa0c3099e8f65978d1968ba43ab data\template\loot_table\blocks\ruby_trapdoor.json
 4fdb8bd13b303427d962958d0b3e50b888d5f687 data\template\loot_table\blocks\ruby_block.json
@@ -17,3 +17,4 @@ a7ed4784fb93d5228410fdc02aed63e7c3423fee data\template\loot_table\blocks\ruby_bu
 4fac41bdc9311eb1874f54279516641d3d9c2d88 data\template\loot_table\blocks\gen_alpha_block.json
 f22579a45a634f893e25f12a4218afdeaa6ac4f7 data\template\loot_table\blocks\ruby_pressure_plate.json
 651a0ab53e46bf4f81c313cc22c5cdbd8fab553a data\template\loot_table\blocks\ruby_wall.json
+7479a7665a91d7aa6d4152b5605d71d3b0129080 data\template\loot_table\blocks\corn_crop.json

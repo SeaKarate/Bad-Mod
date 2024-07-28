@@ -50,6 +50,8 @@ public class ModGroupItems {
 
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.METAL_DETECTOR_SEEDS);
+                        entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModItems.CORN);
 
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_CHESTPLATE);
