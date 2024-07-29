@@ -1,6 +1,6 @@
-// 1.21	2024-07-28T18:26:29.3462321	Mod Template Fabric Modid is template/Model Definitions
-31d2f02d31c31bbb6a5005eabc1b4d1988934c37 assets\template\blockstates\corn_crop.json
+// 1.21	2024-07-29T13:07:42.7721561	Mod Template Fabric Modid is template/Model Definitions
 ac5a27e6e59e3eb46463b5e4b3915df6d36090dd assets\template\models\item\ruby_sword.json
+31d2f02d31c31bbb6a5005eabc1b4d1988934c37 assets\template\blockstates\corn_crop.json
 00894af4fc75525f3b944df8e367a4a4c91783bb assets\template\models\item\ruby_button.json
 25ede443591af305499a0af3cfcdbec3275bedcb assets\template\models\block\ruby_wall_side_tall.json
 2d547192f31c73bfe6c6a49137bdafd146471276 assets\template\models\item\ruby_wall.json
@@ -21,6 +21,7 @@ b586d122777efd4ee464b1129f6e645f51eb4213 assets\template\models\item\ruby_helmet
 65a38dc0c2e5c5136a6b2a7fddceca8e4dbcd872 assets\template\blockstates\ruby_stairs.json
 179cbf92f505992ce9d7ee65b1099399cf37d5ff assets\template\blockstates\ruby_fence_gate.json
 2c6570aba4c8de5dd9d39ff09563e9ec83534cc0 assets\template\models\item\ruby_trapdoor.json
+20c8d9e7ddcc6b4bcfcfecbf8ac1ade18d4244cb assets\template\blockstates\potted_dahlia.json
 f649e22dda5925530457637676743fea45f155f7 assets\template\models\block\ruby_block.json
 3c92d05acb35d0876dc2fd80cb8e525310561ca8 assets\template\models\block\corn_crop_stage7.json
 7de8b6af14816e54d3fffca8b0a6b8b34ea2fc2d assets\template\blockstates\raw_ruby_block.json
@@ -37,8 +38,8 @@ ebb7af22a4b933608e214a4d1aa7642fe7fb6ebf assets\template\models\item\ruby_slab.j
 af992941cac52c975e91eb3be20739f4beec66fa assets\template\blockstates\ruby_wall.json
 0c7ae449c3ade4fe86dbc8c01d2a070c423b2252 assets\template\models\block\metal_detector_crop_stage5.json
 b96e65445774f89311be7bc171e0639d1822a2d9 assets\template\models\item\ruby_fence_gate.json
-53da8fc288a366642414ffe1bd5b6114df963abd assets\template\models\item\metal_detector_seeds.json
 1d6870abfc01e695767dd7751cceee8907a37efb assets\template\models\item\raw_ruby.json
+53da8fc288a366642414ffe1bd5b6114df963abd assets\template\models\item\metal_detector_seeds.json
 4d5e75de932679e76119b6af027e350c37dadbcf assets\template\models\item\ruby_boots_lapis_trim.json
 ca8faec3130bcc754ad112c67c4a2cada156218f assets\template\models\item\ruby_chestplate_lapis_trim.json
 cc671d43dd5fb185ca6c9dcb3dc0b90872a56213 assets\template\models\item\ruby_chestplate_copper_trim.json
@@ -85,6 +86,7 @@ aa67f9560785109012d801a156a1f571c6de9322 assets\template\models\block\ruby_fence
 3c0e7957776efc68d72f167aa2268e7cb9431c58 assets\template\models\item\ruby_chestplate_quartz_trim.json
 5fc4da6064db7d5d1656b211d3c99b6abd6adcc5 assets\template\models\block\metal_detector_crop_stage2.json
 c2d64da503247aaac95c1a7e3e1ae621d29a3268 assets\template\models\block\gen_z_block.json
+759f3c4a385144f89f4500cab84e588e0e4849b4 assets\template\models\item\dahlia.json
 e33da5ba0c978c433a09aedcc64855603465abb2 assets\template\models\item\ruby_stairs.json
 b29b79f4b0960c0bf158a00a8b82836df548fa30 assets\template\models\block\andrew_tate.json
 9aae33ad638509c2392231b6d0cc7c86fb79ad32 assets\template\models\item\ruby_chestplate_redstone_trim.json
@@ -104,6 +106,8 @@ d31d3ad5b3f8bfdc77deb4548e0794ede62ae056 assets\template\blockstates\gen_z_block
 17c4dfbf67b68df3872f5c5bf9d5a69be2571e0d assets\template\models\block\corn_crop_stage4.json
 96ddeffe0b5039d3e3cbfa4cbe3fbfecc0dfe0b3 assets\template\models\block\ruby_wall_post.json
 08177243724cf53568258785ad62b6a9e30ae547 assets\template\models\item\ruby_chestplate_iron_trim.json
+c0b95f02b570a97e2b97b9d6dbc35c52d182eafa assets\template\models\block\potted_dahlia.json
+23076cd1eecf0135f09ba672a59c239e11598154 assets\template\models\block\dahlia.json
 317ba388953354e3b7d61b4654fcbb7f568ff1bc assets\template\models\block\ruby_fence_gate.json
 d7b8ffb2568f3dc1503acca7de7c5433b9289118 assets\template\blockstates\metal_detector_crop.json
 238d2030faf908135a3562661da13713f4a3717f assets\template\models\block\corn_crop_stage1.json
@@ -118,6 +122,7 @@ fb742d2644505839dff9abb39a506110bc94046b assets\template\models\block\tomato_cro
 02e12c152b377ed28a9b91b0ee803633f0ec570b assets\template\models\item\corn_seeds.json
 9a37ba4f72c31bc1ad8f8a7b717902dc9e3f928c assets\template\models\block\ruby_door_bottom_right_open.json
 b51f917872b77559e686b6cf62462c1426de5000 assets\template\models\block\ruby_trapdoor_open.json
+d8e54014c4fdf03c46b3af330bbad4431699c75f assets\template\blockstates\dahlia.json
 1779006ac637f4caca9236d793aa6dd88309c010 assets\template\models\item\ruby_chestplate_gold_trim.json
 a54bca2a49a401a11ccb048f7d4655409758b381 assets\template\blockstates\ruby_block.json
 6633246cff47b4218d261ede0990cbed189ce889 assets\template\models\item\ruby_hoe.json

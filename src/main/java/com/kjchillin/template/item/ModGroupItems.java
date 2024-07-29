@@ -37,6 +37,7 @@ public class ModGroupItems {
                         entries.add(ModBlocks.RUBY_FENCE_GATE);
                         entries.add(ModBlocks.RUBY_WALL);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModBlocks.DAHLIA);
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.POTATO);

@@ -11,6 +11,8 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -80,7 +82,11 @@ public static final Block METAL_DETECTOR_CROP = Registry.register(Registries.BLO
 public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "corn_crop"),
         new CornCropBlock(FabricBlockSettings.copyOf(Blocks.SUGAR_CANE)));
 
-
+    public static final Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.GLOWING, 20,
+                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "potted_dahlia"),
+            new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque()));
 
 
 

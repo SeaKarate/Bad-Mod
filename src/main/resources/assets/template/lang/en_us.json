@@ -37,6 +37,7 @@
   "item.template.metal_detector_seeds": "Metal Detector Seeds",
   "item.template.corn_seeds": "Corn Seeds",
   "item.template.corn": "Corn",
+  "block.template.dahlia": "Dahlia",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }

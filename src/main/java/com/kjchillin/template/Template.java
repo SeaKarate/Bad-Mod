@@ -4,6 +4,7 @@ import com.kjchillin.template.ModFuels.ModFuelClass;
 import com.kjchillin.template.block.ModBlocks;
 import com.kjchillin.template.item.ModGroupItems;
 import com.kjchillin.template.item.ModItems;
+import com.kjchillin.template.util.ModCustomTrades;
 import com.kjchillin.template.util.ModLootTableModifier;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,6 +23,7 @@ public class Template implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModLootTableModifier.modifyLootTables();
 		ModFuelClass.registerModFuels();
+		ModCustomTrades.registerCustomTrades();
 
 	}
 }
