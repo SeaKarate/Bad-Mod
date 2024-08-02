@@ -1,6 +1,7 @@
 package com.kjchillin.template.util;
 
 import com.kjchillin.template.item.ModItems;
+import com.kjchillin.template.villager.ModVillagers;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.enchantment.Enchantments;
@@ -15,7 +16,7 @@ import java.util.Optional;
 
 public class ModCustomTrades {
     public static void registerCustomTrades() {
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 1,
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new TradedItem(Items.EMERALD, 2),
@@ -30,7 +31,7 @@ public class ModCustomTrades {
                             6, 10, 0.05f));
                 });
 
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 2,
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new TradedItem(Items.EMERALD, 3),

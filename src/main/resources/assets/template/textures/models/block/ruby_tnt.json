@@ -1,0 +1,8 @@
+{
+  "parent": "template:block/cube_bottom_top",
+  "textures": {
+    "bottom": "template:block/ruby_tnt_bottom",
+    "side": "template:block/ruby_tnt_side",
+    "top": "template:block/ruby_tnt_top"
+  }
+}

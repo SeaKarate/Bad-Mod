@@ -38,6 +38,15 @@
   "item.template.corn_seeds": "Corn Seeds",
   "item.template.corn": "Corn",
   "block.template.dahlia": "Dahlia",
+  "block.template.ruby_tnt": "Ruby TNT",
+  "sounds.template.metal_detector_found_ore": "Found Valuable Thing",
+  "template.sound_block_break": "Broke Sound Block",
+  "template.sound_block_step": "Stepping On Sound Block",
+  "template.sound_block_place": "Placing Sound Block",
+  "template.sound_block_hit": "Breaking Sound Block",
+  "template.sound_block_fall": "Falling On Sound Block",
+
+  "entity.minecraft.villager.sound_master": "Sound Master",
 
   "tooltip.template.metal_detector.tooltip": "Finds Valuable Metals Underground"
 }

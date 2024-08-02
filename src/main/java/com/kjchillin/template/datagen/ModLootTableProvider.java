@@ -43,6 +43,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BRAINROT_GEN_Z);
         addDrop(ModBlocks.ANDREW_TATE);
         addDrop(ModBlocks.BEDROK);
+        addDrop(ModBlocks.RUBY_TNT);
 
         addDrop(ModBlocks.RUBY_STAIRS);
         addDrop(ModBlocks.RUBY_TRAPDOOR);

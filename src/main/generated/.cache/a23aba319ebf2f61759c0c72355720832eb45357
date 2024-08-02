@@ -1,4 +1,4 @@
-// 1.21	2024-07-29T13:07:42.7981633	Mod Template Fabric Modid is template/Block Loot Tables
+// 1.21	2024-07-30T17:51:55.9718532	Mod Template Fabric Modid is template/Block Loot Tables
 8a1d9bc6d79b0e1e96a8f3047d6b66307f7e7607 data\template\loot_table\blocks\ruby_fence_gate.json
 4941c7d7ffb98af51e175b464729051beb982ec4 data\template\loot_table\blocks\potted_dahlia.json
 a69b4a67acab92b21d0ca9ad7320ff6ef1c98440 data\template\loot_table\blocks\tomato_crop.json
@@ -12,6 +12,7 @@ a6aa8d345153c153302bb85de0a302617aa260d8 data\template\loot_table\blocks\gen_z_b
 76bbe9cae937f2241282e0269f187771575057e5 data\template\loot_table\blocks\dahlia.json
 0946cbb5c11c8d10e5a826326c1be9374ca7abe5 data\template\loot_table\blocks\raw_ruby_block.json
 6c9f58091478c3fb713666fecc2a942fb4a3b9e3 data\template\loot_table\blocks\andrew_tate.json
+f3bfce798d979f089a557a8f79b7856e3124f8b4 data\template\loot_table\blocks\ruby_tnt.json
 a7ed4784fb93d5228410fdc02aed63e7c3423fee data\template\loot_table\blocks\ruby_button.json
 4fd25319f5495c3b708215769fddb5e904deb2a8 data\template\loot_table\blocks\raw_ruby_ore.json
 154edec570eb87e1bd449777cdb8c050c5da94d6 data\template\loot_table\blocks\sound_block.json

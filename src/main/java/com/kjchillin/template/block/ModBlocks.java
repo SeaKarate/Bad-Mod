@@ -6,6 +6,7 @@ import com.kjchillin.template.block.custom.CornCropBlock;
 import com.kjchillin.template.block.custom.GrowableMetalDetector;
 import com.kjchillin.template.block.custom.SoundBlock;
 import com.kjchillin.template.block.custom.TomatoCropBlock;
+import com.kjchillin.template.sound.ModSounds;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -23,8 +24,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.BlockCollisionSpliterator;
 
-import static net.minecraft.block.Blocks.IRON_BLOCK;
-import static net.minecraft.block.Blocks.register;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -51,7 +51,7 @@ public class ModBlocks {
                             .instrument(NoteBlockInstrument.CREEPER)
                             .requiresTool()
                             .strength(1.0F, 100.0F)
-                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+                            .sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.CHERRY_STAIRS)));
@@ -87,6 +87,7 @@ public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identi
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, Identifier.of(Template.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque()));
+
 
 
 
@@ -129,8 +130,18 @@ public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identi
  public static final Block ANDREW_TATE = registerBlock("andrew_tate",
             new Block(
                     AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().solidBlock(Blocks::never)
-            )
- );
+            ));
+
+         public static final Block RUBY_TNT = registerBlock("ruby_tnt",
+            new TntBlock(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.BRIGHT_RED)
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .burnable()
+                            .solidBlock(Blocks::never)
+                    )
+            );
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

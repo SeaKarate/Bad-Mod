@@ -4,8 +4,10 @@ import com.kjchillin.template.ModFuels.ModFuelClass;
 import com.kjchillin.template.block.ModBlocks;
 import com.kjchillin.template.item.ModGroupItems;
 import com.kjchillin.template.item.ModItems;
+import com.kjchillin.template.util.ModCommandCallBack;
 import com.kjchillin.template.util.ModCustomTrades;
 import com.kjchillin.template.util.ModLootTableModifier;
+import com.kjchillin.template.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 
@@ -24,6 +26,7 @@ public class Template implements ModInitializer {
 		ModLootTableModifier.modifyLootTables();
 		ModFuelClass.registerModFuels();
 		ModCustomTrades.registerCustomTrades();
-
+		ModVillagers.registerVillagers();
+		ModCommandCallBack.ModCommandCalling();
 	}
 }
