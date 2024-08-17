@@ -1,6 +1,7 @@
 //// Made with Blockbench 4.10.4
 //// Exported for Minecraft version 1.17+ for Yarn
 //// Paste this class into your mod and generate all required imports
+//// ON HOLD
 //
 //package com.kjchillin.template.entity.client;
 //
@@ -10,21 +11,21 @@
 //import net.minecraft.client.util.math.MatrixStack;
 //import net.minecraft.entity.Entity;
 //
-//public class attacking_block extends EntityModel<Entity> {
-//	private final ModelPart ALL;
+//abstract class AttackingBlockEntity extends EntityModel<Entity> {
+//	private final ModelPart all;
 //	private final ModelPart sword;
-//	private final ModelPart THECUBE;
-//	public attacking_block(ModelPart root) {
-//		this.ALL = root.getChild("ALL");
+//	private final ModelPart thecube;
+//	public AttackingBlockEntity(ModelPart root) {
+//		this.all = root.getChild("all");
 //		this.sword = root.getChild("sword");
-//		this.THECUBE = root.getChild("THECUBE");
+//		this.thecube = root.getChild("thecube");
 //	}
 //	public static TexturedModelData getTexturedModelData() {
 //		ModelData modelData = new ModelData();
 //		ModelPartData modelPartData = modelData.getRoot();
-//		ModelPartData ALL = modelPartData.addChild("ALL", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 18.0F, 0.0F));
+//		ModelPartData all = modelPartData.addChild("all", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 18.0F, 0.0F));
 //
-//		ModelPartData sword = ALL.addChild("sword", ModelPartBuilder.create().uv(4, 40).cuboid(4.0F, -1.0F, -6.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
+//		ModelPartData sword = all.addChild("sword", ModelPartBuilder.create().uv(4, 40).cuboid(4.0F, -1.0F, -6.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
 //		.uv(0, 40).cuboid(4.0F, -1.0F, -7.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
 //		.uv(35, 39).cuboid(5.0F, -1.0F, -7.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
 //		.uv(38, 38).cuboid(5.0F, -1.0F, -6.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
@@ -109,14 +110,10 @@
 //		.uv(0, 34).cuboid(1.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F))
 //		.uv(20, 34).cuboid(0.0F, -1.0F, -2.0F, 1.0F, 1.0F, 1.0F, new Dilation(0.0F)), ModelTransform.of(9.0F, 0.0F, -3.0F, 3.1416F, 0.0F, 1.5708F));
 //
-//		ModelPartData THECUBE = ALL.addChild("THECUBE", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, -16.0F, -8.0F, 16.0F, 16.0F, 16.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 6.0F, 0.0F));
+//		ModelPartData thecube = all.addChild("thecube", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, -16.0F, -8.0F, 16.0F, 16.0F, 16.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 6.0F, 0.0F));
 //		return TexturedModelData.of(modelData, 64, 64);
 //	}
 //	@Override
 //	public void setAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-//	}
-//	@Override
-//	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
-//		ALL.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 //	}
 //}

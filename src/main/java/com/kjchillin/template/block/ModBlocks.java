@@ -2,10 +2,7 @@
 package com.kjchillin.template.block;
 
 import com.kjchillin.template.Template;
-import com.kjchillin.template.block.custom.CornCropBlock;
-import com.kjchillin.template.block.custom.GrowableMetalDetector;
-import com.kjchillin.template.block.custom.SoundBlock;
-import com.kjchillin.template.block.custom.TomatoCropBlock;
+import com.kjchillin.template.block.custom.*;
 import com.kjchillin.template.sound.ModSounds;
 import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -132,16 +129,9 @@ public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identi
                     AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().solidBlock(Blocks::never)
             ));
 
-         public static final Block RUBY_TNT = registerBlock("ruby_tnt",
-            new TntBlock(
-                    AbstractBlock.Settings.create()
-                            .mapColor(MapColor.BRIGHT_RED)
-                            .breakInstantly()
-                            .sounds(BlockSoundGroup.GRASS)
-                            .burnable()
-                            .solidBlock(Blocks::never)
-                    )
-            );
+//         public static final Block GAMEMODECHANGERBLOCK = registerBlock("gamemodechangerblock",
+//            new GamemodeChangerBlock(AbstractBlock.Settings.create().breakInstantly().sounds(BlockSoundGroup.METAL).nonOpaque()
+//            ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

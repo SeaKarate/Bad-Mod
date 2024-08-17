@@ -38,6 +38,7 @@ public class ModGroupItems {
                         entries.add(ModBlocks.RUBY_WALL);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.DAHLIA);
+//                        entries.add(ModBlocks.GAMEMODECHANGERBLOCK);
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.POTATO);

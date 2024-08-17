@@ -4,6 +4,7 @@ import com.kjchillin.template.block.ModBlocks;
 import com.kjchillin.template.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
@@ -30,7 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY,RecipeCategory.DECORATIONS,ModBlocks.RUBY_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_RUBY, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY, 1)
                 .pattern("SRS")
                 .pattern("R R")
                 .pattern("SRS")
@@ -39,7 +40,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.COBBLESTONE),conditionsFromItem(Items.COBBLESTONE))
                 .criterion(hasItem(ModItems.RAW_RUBY),conditionsFromItem(ModItems.RAW_RUBY))
                 .offerTo(exporter, Identifier.of("ruby_crafting"));
-
-
+//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GAMEMODECHANGERBLOCK, 1)
+//                .pattern("OSO")
+//                .pattern("ORO")
+//                .pattern("O O")
+//                .input('O', Items.OBSIDIAN)
+//                .input('R', Items.REDSTONE_BLOCK)
+//                .input('S', Items.STONE)
+//                .criterion(hasItem(Items.COBBLESTONE),conditionsFromItem(Items.COBBLESTONE))
+//                .criterion(hasItem(ModItems.RAW_RUBY),conditionsFromItem(ModItems.RAW_RUBY))
+//                .offerTo(exporter, Identifier.of("gamemodecrafting"));
+//
+//
     }
 }
